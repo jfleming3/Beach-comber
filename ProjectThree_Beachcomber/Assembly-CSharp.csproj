@@ -64,6 +64,7 @@
     <Compile Include="Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/Barrels/StandardDoubleSided.shader" />
     <None Include="Assets/Palm Tree/readme.txt" />
     <None Include="Assets/StarterAssets/Environment/Shaders/Built-in_RP/Triplanar.shader" />
     <None Include="Assets/Palm Tree/Shaders/TFP_treecreator/TFPTreeCreatorLeavesOptimized.shader" />
