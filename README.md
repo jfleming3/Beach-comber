@@ -1,6 +1,6 @@
 # Beach-comber
 
 
-# Justin Fleming
-# Clara Skeim 
-# Wilson Krueger
+Justin Fleming
+Clara Skeim 
+Wilson Krueger
