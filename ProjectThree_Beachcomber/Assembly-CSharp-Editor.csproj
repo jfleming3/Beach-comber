@@ -53,11 +53,11 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
     <Compile Include="Assets/StarterAssets/Editor/ScriptingDefineUtils.cs" />
+    <Compile Include="Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs" />
     <Compile Include="Assets/StarterAssets/Editor/FirstPersonStarterAssetsDeployMenu.cs" />
     <Compile Include="Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs" />
-    <Compile Include="Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
-    <Compile Include="Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/StarterAssets/Editor/PackageChecker/PackageImportList.txt" />
@@ -704,6 +704,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D176E976-CFB7-BA80-A321-76539FE3FB84}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{D5221C4E-EA94-6A12-ECAE-378E7D309F07}</Project>
       <Name>Assembly-CSharp</Name>
