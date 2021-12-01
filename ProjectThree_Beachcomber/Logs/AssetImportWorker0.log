@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50102
+50157
 Successfully changed project path to: /Users/c.skeim/Documents/GitHub/Beach-comber/ProjectThree_Beachcomber
 /Users/c.skeim/Documents/GitHub/Beach-comber/ProjectThree_Beachcomber
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/c.skeim/Documents/GitHub/Beach-comber/ProjectThree_Beachcomber/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-30 21:27:58.679 Unity[2844:46351] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
-2021-11-30 21:27:58.679 Unity[2844:46351] Metal devices available: 1
-2021-11-30 21:27:58.679 Unity[2844:46351] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
-2021-11-30 21:27:58.680 Unity[2844:46351] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-11-30 21:37:14.554 Unity[3072:51772] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-11-30 21:37:14.554 Unity[3072:51772] Metal devices available: 1
+2021-11-30 21:37:14.554 Unity[3072:51772] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-11-30 21:37:14.555 Unity[3072:51772] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 Initialize mono
 Mono path[0] = '/Applications/2020.3.18f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004778 seconds.
+Registered in 0.003202 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 119.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.345 seconds
+- Completed reload, in  3.095 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3345ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (3095ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1196ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (824ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
+			SetupTypeCache (330ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (524ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (337ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (120ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012899 seconds.
+Registered in 0.008100 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 102.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.839 seconds
+- Completed reload, in  2.297 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2846ms)
-		BeginReloadAssembly (423ms)
+	ReloadAssembly (2299ms)
+		BeginReloadAssembly (327ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (2269ms)
-			LoadAssemblies (242ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (1782ms)
+			LoadAssemblies (252ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (608ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (951ms)
+			SetupTypeCache (613ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (596ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (167ms)
-				ProcessInitializeOnLoadAttributes (647ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (416ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (3ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.046511 seconds.
+Validating Project structure ... 0.015176 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.085269 seconds.
+Upgrading shader files ...0.043603 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,18 +125,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/2020.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1873 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.6 MB.
-System memory in use after: 203.7 MB.
+System memory in use before: 204.8 MB.
+System memory in use after: 204.1 MB.
 
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 2372.
-Total: 6.924201 ms (FindLiveObjects: 0.320700 ms CreateObjectMapping: 0.154679 ms MarkObjects: 5.676831 ms  DeleteObjects: 0.770349 ms)
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 5.259499 ms (FindLiveObjects: 0.410258 ms CreateObjectMapping: 0.157704 ms MarkObjects: 3.845348 ms  DeleteObjects: 0.844371 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,72 +150,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Island/Environment/Terrain/Textures/Cliff_1/Cliff_1_Diffuse.tif
-  artifactKey: Guid(44c76103676243f41a593d9dcfb63e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Environment/Terrain/Textures/Cliff_1/Cliff_1_Diffuse.tif using Guid(44c76103676243f41a593d9dcfb63e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c632bd7e0928b4822ca2f73541532d') in 1.518868 seconds 
-  Import took 1.525101 seconds .
+  path: Assets/StarterAssets/Mobile/Prefabs
+  artifactKey: Guid(49852dd85b2de7b4997a61317937f2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs using Guid(49852dd85b2de7b4997a61317937f2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a558f56d594f6b08a32952f5d8b2d64f') in 0.005573 seconds 
+  Import took 0.010472 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005420 seconds.
-  path: Assets/Island/Environment/Terrain/Textures/Mossy_Rock/Mossy_Rock_Diffuse.tif
-  artifactKey: Guid(25aa1e93d2be86643bb80bb91e46a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Environment/Terrain/Textures/Mossy_Rock/Mossy_Rock_Diffuse.tif using Guid(25aa1e93d2be86643bb80bb91e46a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28bc7af2e82450b2f0a0ff544fd4e5c') in 0.026505 seconds 
-  Import took 0.033765 seconds .
+  Time since last request: 0.000455 seconds.
+  path: Assets/StarterAssets/Mobile
+  artifactKey: Guid(1d9a48e14080daf4794b86b4911eef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile using Guid(1d9a48e14080daf4794b86b4911eef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ade224167f27c3e00b62306779d996a') in 0.002143 seconds 
+  Import took 0.007623 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/Island/Environment/Terrain/Textures/Dirt_2/Dirt_2_Diffuse.tif
-  artifactKey: Guid(be60de281999eee428cb58e0c908dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Environment/Terrain/Textures/Dirt_2/Dirt_2_Diffuse.tif using Guid(be60de281999eee428cb58e0c908dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16f8702319964188839850fd22b380e') in 0.026962 seconds 
-  Import took 0.034454 seconds .
+  Time since last request: 0.000974 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs
+  artifactKey: Guid(6ac91ba6d254abc4c98c1a8868673b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/CanvasInputs using Guid(6ac91ba6d254abc4c98c1a8868673b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6975d2436f6eef03af8ff4ced4396a') in 0.001986 seconds 
+  Import took 0.008853 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Island/Environment/Terrain/Textures/Grass_2/Grass_2_Diffuse.tif
-  artifactKey: Guid(d3bf48d327d33be44bfc0862c7e8367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Environment/Terrain/Textures/Grass_2/Grass_2_Diffuse.tif using Guid(d3bf48d327d33be44bfc0862c7e8367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a867930d07e9347f1222c500beb4ea51') in 0.025018 seconds 
-  Import took 0.032337 seconds .
+  Time since last request: 0.000405 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab
+  artifactKey: Guid(2f7f3dde7ae722a4aafffe20691ad702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab using Guid(2f7f3dde7ae722a4aafffe20691ad702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4ac323dab5a482d1280bb3ea676a1e') in 1.319909 seconds 
+  Import took 1.324299 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Island/Environment/Terrain/Textures/Sand/Sand_Diffuse.tif
-  artifactKey: Guid(42df4504925e3c6428d6c62cdba23147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Environment/Terrain/Textures/Sand/Sand_Diffuse.tif using Guid(42df4504925e3c6428d6c62cdba23147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e70c77af473421bdc46e0dbdf33993c') in 0.036829 seconds 
-  Import took 0.047891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000684 seconds.
-  path: Assets/Island/Environment/Terrain/Textures/Dirt_1/Dirt_1_Diffuse.tif
-  artifactKey: Guid(721e0006ccd5ef64abea0e806ed8c207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Environment/Terrain/Textures/Dirt_1/Dirt_1_Diffuse.tif using Guid(721e0006ccd5ef64abea0e806ed8c207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfd93e9ea84aac99f7047908e216993') in 0.025045 seconds 
-  Import took 0.033169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Island/Environment/Terrain/Textures/Cliff_2/Cliff_2_Diffuse.tif
-  artifactKey: Guid(d0111cb4aeac3a243ad5e9a93854f108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Environment/Terrain/Textures/Cliff_2/Cliff_2_Diffuse.tif using Guid(d0111cb4aeac3a243ad5e9a93854f108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5963acf24fcef99a4233e803bc396138') in 0.037140 seconds 
-  Import took 0.056907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000926 seconds.
-  path: Assets/Island/Environment/Terrain/Textures/Grass_1/Grass_1_Diffuse.tif
-  artifactKey: Guid(75ec9d666a8e3c8468361ddb5475adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Environment/Terrain/Textures/Grass_1/Grass_1_Diffuse.tif using Guid(75ec9d666a8e3c8468361ddb5475adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608df97ad7e78c9267bf1e043dba119e') in 0.054292 seconds 
-  Import took 0.065294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.349632 seconds.
-  path: Assets/Island/Environment/Terrain/Textures/Sand/Sand_Diffuse.tif
-  artifactKey: Guid(42df4504925e3c6428d6c62cdba23147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Environment/Terrain/Textures/Sand/Sand_Diffuse.tif using Guid(42df4504925e3c6428d6c62cdba23147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e70c77af473421bdc46e0dbdf33993c') in 0.019407 seconds 
-  Import took 0.029198 seconds .
+  Time since last request: 0.004726 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+  artifactKey: Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab using Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb222a7b107a849e887e87ec70dc8a59') in 0.013393 seconds 
+  Import took 0.021942 seconds .
 
